@@ -1,0 +1,39 @@
+{
+  "alunos": [
+    {
+      "id": 1,
+      "matricula": 2021100,
+      "nome": "João",
+      "media": 9.8
+    },
+    {
+      "id": 2,
+      "matricula": 2021101,
+      "nome": "Mary",
+      "media": 9.5
+    },
+    {
+      "id": 3,
+      "matricula": 2021102,
+      "nome": "Wemerson",
+      "media": 9.9
+    }
+  ],
+  "professores": [
+    {
+      "id": 1,
+      "nome": "Anselmo",
+      "disciplina": "Circuitos Lógicos"
+    },
+    {
+      "id": 2,
+      "nome": "Borbagato",
+      "disciplina": "Circuitos Elétricos 1"
+    },
+    {
+      "id": 3,
+      "nome": "Ricardo Melo",
+      "disciplina": "Laboratório de Circuitos"
+    }
+  ]
+}
