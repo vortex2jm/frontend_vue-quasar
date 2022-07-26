@@ -8,12 +8,12 @@
       v-if="icon"
       avatar
     >
-      <q-icon :name="icon" />
+      <q-icon :name="icon" class="icon" />
     </q-item-section>
 
     <q-item-section>
-      <q-item-label>{{ title }}</q-item-label>
-      <q-item-label caption>{{ caption }}</q-item-label>
+      <q-item-label class="icon">{{ title }}</q-item-label>
+      <q-item-label caption class="icon">{{ caption }}</q-item-label>
     </q-item-section>
   </q-item>
 </template>
@@ -46,3 +46,9 @@ export default defineComponent({
   }
 })
 </script>
+
+<style>
+.icon{
+  color: white;
+}
+</style>

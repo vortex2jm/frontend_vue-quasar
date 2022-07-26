@@ -1,11 +1,15 @@
 <template>
   <q-page padding>
-    <q-table
+    <div>
+      <q-table
         title="Alunos"
         :rows="alunos"
         :columns="columns"
         row-key="name"
+        bordered
+        class="table"
       />
+    </div>
   </q-page>
 </template>
 
@@ -34,7 +38,7 @@ export default defineComponent({
       } catch (error) {
         console.log(error)
       }
-    }
+    } 
     return {
       alunos,
       columns
@@ -42,3 +46,12 @@ export default defineComponent({
   }
 })
 </script>
+
+<style>
+
+.table{
+  background-color: #fdc27d;
+  font-weight: bold;
+}
+
+</style>

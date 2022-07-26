@@ -1,7 +1,7 @@
 <template>
   <q-layout view="lHh Lpr lFf">
     <q-header elevated>
-      <q-toolbar>
+      <q-toolbar class="toolbar">
         <q-btn
           flat
           dense
@@ -22,10 +22,12 @@
       v-model="leftDrawerOpen"
       show-if-above
       bordered
+      class="drawer"
     >
       <q-list>
         <q-item-label
           header
+          class="menu_text"
         >
           Menu
         </q-item-label>
@@ -51,9 +53,27 @@ import EssentialLink from 'components/EssentialLink.vue'
 const linksList = [
   {
     title: 'Home',
-    caption: '',
+    caption: 'Página inicial',
     icon: 'home',
     route: { name: 'home' }
+  },
+  {
+    title: 'Alunos',
+    caption: 'Listagem de alunos',
+    icon: 'list',
+    route: { name: 'list' }
+  },
+  {
+    title: 'Cadastrar',
+    caption: 'Cadastro de alunos',
+    icon: 'edit',
+    route: ''
+  },
+  {
+    title: 'Deletar',
+    caption: 'Exclusão de alunos',
+    icon: 'delete',
+    route: ''
   }
 ]
 
@@ -77,3 +97,21 @@ export default defineComponent({
   }
 })
 </script>
+
+<style>
+
+.drawer{
+  background-color: black;
+}
+
+.toolbar{
+  background-color: black;
+}
+
+.menu_text{
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+</style>
