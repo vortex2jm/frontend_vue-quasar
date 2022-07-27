@@ -22,7 +22,7 @@ export default defineComponent({
   setup () {
     const alunos = ref([])
     const columns = [
-      { name: 'id', label: 'Id', field: 'id', sortable: true },
+      { name: 'matricula', label: 'Matrícula', field: 'matricula', sortable: true },
       { name: 'nome', label: 'Nome', field: 'nome', sortable: true },
       { name: 'media', label: 'Media', field: 'media', sortable: true }
     ]

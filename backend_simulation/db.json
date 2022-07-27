@@ -1,22 +1,22 @@
 {
   "alunos": [
     {
-      "id": 1,
-      "matricula": 2021100,
-      "nome": "João",
-      "media": 9.8
+      "matricula": "2021",
+      "nome": "Joao",
+      "media": "10",
+      "id": 1
     },
     {
-      "id": 2,
-      "matricula": 2021101,
-      "nome": "Mary",
-      "media": 9.5
+      "matricula": "696969",
+      "nome": "Caião",
+      "media": "10.5",
+      "id": 2
     },
     {
-      "id": 3,
-      "matricula": 2021102,
-      "nome": "Wemerson",
-      "media": 9.9
+      "matricula": "89898988",
+      "nome": "Kristiano",
+      "media": "0.5",
+      "id": 4
     }
   ],
   "professores": [

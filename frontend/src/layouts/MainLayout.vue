@@ -67,13 +67,13 @@ const linksList = [
     title: 'Cadastrar',
     caption: 'Cadastro de alunos',
     icon: 'edit',
-    route: ''
+    route: { name: 'create'}
   },
   {
     title: 'Deletar',
     caption: 'Exclusão de alunos',
     icon: 'delete',
-    route: ''
+    route: { name: 'delete' }
   }
 ]
 
