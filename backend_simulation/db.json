@@ -1,22 +1,10 @@
 {
   "alunos": [
     {
-      "matricula": "2021",
-      "nome": "Joao",
-      "media": "10",
+      "matricula": "2021100149",
+      "nome": "João Paulo Moura Clevelares",
+      "media": "9.8",
       "id": 1
-    },
-    {
-      "matricula": "696969",
-      "nome": "Caião",
-      "media": "10.5",
-      "id": 2
-    },
-    {
-      "matricula": "89898988",
-      "nome": "Kristiano",
-      "media": "0.5",
-      "id": 4
     }
   ],
   "professores": [
